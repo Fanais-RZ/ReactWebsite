@@ -27,7 +27,7 @@ const ResponsiveAppBar = () => {
 
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ background: "Grey" }}>
         <Toolbar disableGutters>
           <img
             alt="AlProTes"
